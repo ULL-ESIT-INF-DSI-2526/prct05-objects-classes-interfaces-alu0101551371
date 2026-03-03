@@ -7,7 +7,8 @@
     "dev": "tsc-watch --onSuccess \"node dist/modi2_mutation.js\"",
     "doc": "typedoc",
     "test": "vitest",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "coverage": "vitest run --coverage --coverage.include src/*"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   "homepage": "https://github.com/ULL-ESIT-INF-DSI-2526/prct05-objects-classes-interfaces-alu0101551371#readme",
   "devDependencies": {
     "@eslint/js": "^9.39.2",
+    "@vitest/coverage-v8": "^4.0.18",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-tsdoc": "^0.5.0",
