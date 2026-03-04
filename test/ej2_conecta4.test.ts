@@ -9,6 +9,18 @@ describe("Conecta4", () => {
 		tablero = new Conecta4();
 	});
 
+	test("Tablero se imprime correctamente", () => {
+		let consoleOutput: string[] = [];
+		const mockedLog = (output: string) => consoleOutput.push(output);
+		console.log = mockedLog;
+
+		tablero.printTablero();
+		expect(consoleOutput.length).toBe(6);
+		consoleOutput.forEach(row => {
+			expect(row).toBe('⚪ ⚪ ⚪ ⚪ ⚪ ⚪ ⚪');
+		});
+	});
+
 	test("Tablero se inicializa correctamente", () => {
 		expect(tablero.tablero.length).toBe(6);
 		tablero.tablero.forEach(row => {
@@ -25,6 +37,11 @@ describe("Conecta4", () => {
 		const result = tablero.soltarFicha(0);
 		expect(result).toBe(true);
 		expect(tablero.tablero[5][0]).toBe('🔴');
+	});
+
+	test("Soltar ficha en columna no válida", () => {
+		const result = tablero.soltarFicha(7);
+		expect(result).toBe(false);
 	});
 
 	test("Soltar ficha en columna completa", () => {
@@ -65,6 +82,14 @@ describe("Conecta4", () => {
 		tablero.tablero[4][2] = '🔴';
 		tablero.tablero[5][3] = '🔴';
 		expect(tablero.verificarGanador()).toBe(true);
+	});
+
+	test("No hay ganador", () => {
+		tablero.tablero[5][0] = '🔴';
+		tablero.tablero[5][1] = '🔴';
+		tablero.tablero[5][2] = '🔴';
+		tablero.tablero[5][3] = '🟡';
+		expect(tablero.verificarGanador()).toBe(false);
 	});
 });
 
