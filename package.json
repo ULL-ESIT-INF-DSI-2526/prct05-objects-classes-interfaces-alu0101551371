@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsc-watch --onSuccess \"node dist/modi2_mutation.js\"",
+    "dev": "tsc-watch --onSuccess \"node dist/*.js\"",
     "doc": "typedoc",
     "test": "vitest",
     "format": "prettier --write .",
