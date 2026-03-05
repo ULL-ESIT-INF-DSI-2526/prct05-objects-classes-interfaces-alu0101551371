@@ -204,3 +204,5 @@ npm run format
 ---
 
 Última actualización: 5 de marzo de 2026
+
+[![Coverage Status](https://coveralls.io/repos/github/ULL-ESIT-INF-DSI-2526/prct05-objects-classes-interfaces-alu0101551371/badge.svg?branch=main)](https://coveralls.io/github/ULL-ESIT-INF-DSI-2526/prct05-objects-classes-interfaces-alu0101551371?branch=main)
