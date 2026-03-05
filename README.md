@@ -61,6 +61,8 @@ Lleve a cabo todos y cada uno de los ejercicios propuestos a continuación. Dado
 
 Incluya la documentación de sus clases mediante el uso de **TSDoc** y genere dicha documentación con **TypeDoc**. Luego, adopte una metodología de **desarrollo dirigido por pruebas (TDD)**. Tenga en cuenta que seguir la metodología TDD implica confirmar el correcto funcionamiento del código desarrollado, así como los casos en los que dicho código debería informar de un error cuando la entrada no sea la correcta (errors should never pass silently). En consecuencia, desarrolle pruebas unitarias que comprueben el correcto funcionamiento del código y, además, incluya otras pruebas unitarias que verifiquen que el software es robusto ante entradas no válidas o inesperadas.
 
+---
+
 ### Ejercicio 1 - Gestor de referencias bibliográficas
 
 Los gestores de referencias bibliográficas son herramientas que permiten almacenar, consultar y exportar información en diferentes formatos sobre elementos bibliográficos: recursos electrónicos, trabajos de fin de titulación (grado o máster), tesis, patentes, artículos de revistas, contribuciones a congresos, libros o capítulos de libros, entre otros.
@@ -94,6 +96,8 @@ Tenga en cuenta que cada elemento bibliográfico puede contener información adi
 - Trabajos de Fin de Grado (TFG)
 - Trabajos de Fin de Máster (TFM)
 
+---
+
 ### Ejercicio 2 - Conecta 4
 
 Todos (o casi todos) hemos jugado alguna vez al Conecta 4. En una rejilla de 6 filas y 7 columnas, dos jugadores se turnan para ir colocando un conjunto de fichas dejándolas caer por alguna de las siete columnas de la rejilla. Cada jugador dispone de un total de 21 fichas de un color diferente.
@@ -111,6 +115,8 @@ Cree la jerarquía de clases e interfaces necesarias para implementar el juego C
 - Si un jugador intenta colocar una ficha en una columna completa, se mostrará un mensaje informando de que la columna está completa y se le permitirá seleccionar otra columna
 - Una vez que el jugador correspondiente haya colocado una ficha, debe mostrarse el estado del tablero
 - Cuando alguno de los dos jugadores gane, se debe informar de lo anterior en la consola y terminar el juego
+
+---
 
 ### Ejercicio 3 - Recetario
 
