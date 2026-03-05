@@ -1,85 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1772669423409" clover="3.2.0">
-  <project timestamp="1772669423409" name="All files">
+<coverage generated="1772670575583" clover="3.2.0">
+  <project timestamp="1772670575584" name="All files">
     <metrics statements="163" coveredstatements="163" conditionals="98" coveredconditionals="98" methods="46" coveredmethods="46" elements="307" coveredelements="307" complexity="0" loc="163" ncloc="163" packages="3" files="8" classes="8"/>
     <package name="ej1_gestor_referencias_bibliográficas">
       <metrics statements="71" coveredstatements="71" conditionals="21" coveredconditionals="21" methods="16" coveredmethods="16"/>
       <file name="elementos.ts" path="/home/usuario/DSI/prct05-objects-classes-interfaces-alu0101551371/src/ej1_gestor_referencias_bibliográficas/elementos.ts">
         <metrics statements="60" coveredstatements="60" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="12"/>
-        <line num="13" count="39" type="stmt"/>
-        <line num="14" count="39" type="stmt"/>
-        <line num="15" count="39" type="stmt"/>
-        <line num="16" count="39" type="stmt"/>
-        <line num="17" count="39" type="stmt"/>
-        <line num="18" count="39" type="stmt"/>
-        <line num="19" count="39" type="stmt"/>
-        <line num="23" count="7" type="stmt"/>
-        <line num="29" count="15" type="stmt"/>
-        <line num="30" count="15" type="stmt"/>
-        <line num="31" count="15" type="stmt"/>
-        <line num="32" count="15" type="stmt"/>
-        <line num="33" count="15" type="stmt"/>
-        <line num="34" count="15" type="stmt"/>
-        <line num="35" count="15" type="stmt"/>
-        <line num="36" count="15" type="stmt"/>
-        <line num="37" count="15" type="stmt"/>
-        <line num="38" count="15" type="stmt"/>
-        <line num="41" count="2" type="stmt"/>
-        <line num="47" count="15" type="stmt"/>
-        <line num="48" count="15" type="stmt"/>
-        <line num="49" count="15" type="stmt"/>
-        <line num="50" count="15" type="stmt"/>
-        <line num="51" count="15" type="stmt"/>
-        <line num="52" count="15" type="stmt"/>
-        <line num="53" count="15" type="stmt"/>
-        <line num="54" count="15" type="stmt"/>
+        <line num="23" count="39" type="stmt"/>
+        <line num="24" count="39" type="stmt"/>
+        <line num="25" count="39" type="stmt"/>
+        <line num="26" count="39" type="stmt"/>
+        <line num="27" count="39" type="stmt"/>
+        <line num="28" count="39" type="stmt"/>
+        <line num="29" count="39" type="stmt"/>
+        <line num="37" count="7" type="stmt"/>
         <line num="55" count="15" type="stmt"/>
         <line num="56" count="15" type="stmt"/>
-        <line num="59" count="2" type="stmt"/>
-        <line num="65" count="3" type="stmt"/>
-        <line num="66" count="3" type="stmt"/>
-        <line num="67" count="3" type="stmt"/>
-        <line num="68" count="3" type="stmt"/>
-        <line num="69" count="3" type="stmt"/>
-        <line num="70" count="3" type="stmt"/>
-        <line num="71" count="3" type="stmt"/>
-        <line num="72" count="3" type="stmt"/>
-        <line num="73" count="3" type="stmt"/>
-        <line num="76" count="1" type="stmt"/>
-        <line num="82" count="3" type="stmt"/>
-        <line num="83" count="3" type="stmt"/>
-        <line num="84" count="3" type="stmt"/>
-        <line num="85" count="3" type="stmt"/>
-        <line num="86" count="3" type="stmt"/>
-        <line num="87" count="3" type="stmt"/>
-        <line num="88" count="3" type="stmt"/>
-        <line num="89" count="3" type="stmt"/>
-        <line num="90" count="3" type="stmt"/>
-        <line num="93" count="1" type="stmt"/>
-        <line num="99" count="3" type="stmt"/>
-        <line num="100" count="3" type="stmt"/>
-        <line num="101" count="3" type="stmt"/>
-        <line num="102" count="3" type="stmt"/>
-        <line num="103" count="3" type="stmt"/>
-        <line num="104" count="3" type="stmt"/>
-        <line num="105" count="3" type="stmt"/>
-        <line num="106" count="3" type="stmt"/>
-        <line num="107" count="3" type="stmt"/>
-        <line num="110" count="1" type="stmt"/>
+        <line num="57" count="15" type="stmt"/>
+        <line num="58" count="15" type="stmt"/>
+        <line num="59" count="15" type="stmt"/>
+        <line num="60" count="15" type="stmt"/>
+        <line num="61" count="15" type="stmt"/>
+        <line num="62" count="15" type="stmt"/>
+        <line num="63" count="15" type="stmt"/>
+        <line num="64" count="15" type="stmt"/>
+        <line num="71" count="2" type="stmt"/>
+        <line num="89" count="15" type="stmt"/>
+        <line num="90" count="15" type="stmt"/>
+        <line num="91" count="15" type="stmt"/>
+        <line num="92" count="15" type="stmt"/>
+        <line num="93" count="15" type="stmt"/>
+        <line num="94" count="15" type="stmt"/>
+        <line num="95" count="15" type="stmt"/>
+        <line num="96" count="15" type="stmt"/>
+        <line num="97" count="15" type="stmt"/>
+        <line num="98" count="15" type="stmt"/>
+        <line num="105" count="2" type="stmt"/>
+        <line num="122" count="3" type="stmt"/>
+        <line num="123" count="3" type="stmt"/>
+        <line num="124" count="3" type="stmt"/>
+        <line num="125" count="3" type="stmt"/>
+        <line num="126" count="3" type="stmt"/>
+        <line num="127" count="3" type="stmt"/>
+        <line num="128" count="3" type="stmt"/>
+        <line num="129" count="3" type="stmt"/>
+        <line num="130" count="3" type="stmt"/>
+        <line num="137" count="1" type="stmt"/>
+        <line num="154" count="3" type="stmt"/>
+        <line num="155" count="3" type="stmt"/>
+        <line num="156" count="3" type="stmt"/>
+        <line num="157" count="3" type="stmt"/>
+        <line num="158" count="3" type="stmt"/>
+        <line num="159" count="3" type="stmt"/>
+        <line num="160" count="3" type="stmt"/>
+        <line num="161" count="3" type="stmt"/>
+        <line num="162" count="3" type="stmt"/>
+        <line num="169" count="1" type="stmt"/>
+        <line num="186" count="3" type="stmt"/>
+        <line num="187" count="3" type="stmt"/>
+        <line num="188" count="3" type="stmt"/>
+        <line num="189" count="3" type="stmt"/>
+        <line num="190" count="3" type="stmt"/>
+        <line num="191" count="3" type="stmt"/>
+        <line num="192" count="3" type="stmt"/>
+        <line num="193" count="3" type="stmt"/>
+        <line num="194" count="3" type="stmt"/>
+        <line num="201" count="1" type="stmt"/>
       </file>
       <file name="inventario.ts" path="/home/usuario/DSI/prct05-objects-classes-interfaces-alu0101551371/src/ej1_gestor_referencias_bibliográficas/inventario.ts">
         <metrics statements="11" coveredstatements="11" conditionals="21" coveredconditionals="21" methods="4" coveredmethods="4"/>
-        <line num="4" count="9" type="cond" truecount="1" falsecount="0"/>
-        <line num="7" count="9" type="stmt"/>
-        <line num="11" count="15" type="stmt"/>
-        <line num="12" count="15" type="stmt"/>
-        <line num="13" count="30" type="cond" truecount="4" falsecount="0"/>
-        <line num="14" count="27" type="cond" truecount="4" falsecount="0"/>
-        <line num="15" count="25" type="cond" truecount="4" falsecount="0"/>
-        <line num="16" count="19" type="cond" truecount="4" falsecount="0"/>
-        <line num="17" count="16" type="cond" truecount="4" falsecount="0"/>
-        <line num="18" count="13" type="stmt"/>
-        <line num="20" count="15" type="stmt"/>
+        <line num="8" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="9" type="stmt"/>
+        <line num="24" count="15" type="stmt"/>
+        <line num="25" count="15" type="stmt"/>
+        <line num="26" count="30" type="cond" truecount="4" falsecount="0"/>
+        <line num="27" count="27" type="cond" truecount="4" falsecount="0"/>
+        <line num="28" count="25" type="cond" truecount="4" falsecount="0"/>
+        <line num="29" count="19" type="cond" truecount="4" falsecount="0"/>
+        <line num="30" count="16" type="cond" truecount="4" falsecount="0"/>
+        <line num="31" count="13" type="stmt"/>
+        <line num="33" count="15" type="stmt"/>
       </file>
     </package>
     <package name="ej2_conecta4">
@@ -87,115 +87,115 @@
       <file name="conecta4.ts" path="/home/usuario/DSI/prct05-objects-classes-interfaces-alu0101551371/src/ej2_conecta4/conecta4.ts">
         <metrics statements="36" coveredstatements="36" conditionals="32" coveredconditionals="32" methods="6" coveredmethods="6"/>
         <line num="4" count="11" type="stmt"/>
-        <line num="10" count="11" type="stmt"/>
-        <line num="11" count="11" type="stmt"/>
-        <line num="12" count="11" type="stmt"/>
         <line num="13" count="11" type="stmt"/>
-        <line num="17" count="11" type="stmt"/>
-        <line num="18" count="11" type="stmt"/>
-        <line num="19" count="66" type="stmt"/>
-        <line num="24" count="6" type="stmt"/>
-        <line num="28" count="9" type="cond" truecount="4" falsecount="0"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="33" count="8" type="stmt"/>
-        <line num="34" count="28" type="cond" truecount="2" falsecount="0"/>
-        <line num="35" count="7" type="stmt"/>
-        <line num="37" count="7" type="cond" truecount="2" falsecount="0"/>
-        <line num="38" count="7" type="stmt"/>
-        <line num="42" count="1" type="stmt"/>
+        <line num="14" count="11" type="stmt"/>
+        <line num="15" count="11" type="stmt"/>
+        <line num="16" count="11" type="stmt"/>
+        <line num="23" count="11" type="stmt"/>
+        <line num="24" count="11" type="stmt"/>
+        <line num="25" count="66" type="stmt"/>
+        <line num="33" count="6" type="stmt"/>
+        <line num="42" count="9" type="cond" truecount="4" falsecount="0"/>
         <line num="43" count="1" type="stmt"/>
-        <line num="48" count="5" type="stmt"/>
-        <line num="49" count="30" type="stmt"/>
-        <line num="50" count="117" type="cond" truecount="6" falsecount="0"/>
-        <line num="54" count="1" type="stmt"/>
-        <line num="60" count="4" type="stmt"/>
-        <line num="61" count="22" type="stmt"/>
-        <line num="62" count="66" type="cond" truecount="6" falsecount="0"/>
-        <line num="66" count="1" type="stmt"/>
-        <line num="72" count="3" type="stmt"/>
-        <line num="73" count="9" type="stmt"/>
-        <line num="74" count="33" type="cond" truecount="6" falsecount="0"/>
-        <line num="78" count="1" type="stmt"/>
-        <line num="84" count="2" type="stmt"/>
-        <line num="85" count="6" type="stmt"/>
-        <line num="86" count="21" type="cond" truecount="6" falsecount="0"/>
-        <line num="90" count="1" type="stmt"/>
-        <line num="95" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="47" count="8" type="stmt"/>
+        <line num="48" count="28" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="7" type="stmt"/>
+        <line num="51" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="7" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="66" count="5" type="stmt"/>
+        <line num="67" count="30" type="stmt"/>
+        <line num="68" count="117" type="cond" truecount="6" falsecount="0"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="78" count="4" type="stmt"/>
+        <line num="79" count="22" type="stmt"/>
+        <line num="80" count="66" type="cond" truecount="6" falsecount="0"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="90" count="3" type="stmt"/>
+        <line num="91" count="9" type="stmt"/>
+        <line num="92" count="33" type="cond" truecount="6" falsecount="0"/>
+        <line num="96" count="1" type="stmt"/>
+        <line num="102" count="2" type="stmt"/>
+        <line num="103" count="6" type="stmt"/>
+        <line num="104" count="21" type="cond" truecount="6" falsecount="0"/>
+        <line num="108" count="1" type="stmt"/>
+        <line num="113" count="1" type="stmt"/>
       </file>
       <file name="jugador.ts" path="/home/usuario/DSI/prct05-objects-classes-interfaces-alu0101551371/src/ej2_conecta4/jugador.ts">
         <metrics statements="7" coveredstatements="7" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
-        <line num="9" count="32" type="cond" truecount="1" falsecount="0"/>
-        <line num="10" count="32" type="stmt"/>
-        <line num="11" count="32" type="stmt"/>
-        <line num="15" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
+        <line num="15" count="32" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="32" type="stmt"/>
+        <line num="17" count="32" type="stmt"/>
+        <line num="26" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
       </file>
     </package>
     <package name="ej3_recetario">
       <metrics statements="49" coveredstatements="49" conditionals="42" coveredconditionals="42" methods="22" coveredmethods="22"/>
       <file name="chef.ts" path="/home/usuario/DSI/prct05-objects-classes-interfaces-alu0101551371/src/ej3_recetario/chef.ts">
         <metrics statements="9" coveredstatements="9" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
-        <line num="11" count="18" type="stmt"/>
-        <line num="12" count="18" type="stmt"/>
-        <line num="13" count="18" type="stmt"/>
-        <line num="17" count="3" type="stmt"/>
-        <line num="18" count="3" type="stmt"/>
-        <line num="19" count="6" type="cond" truecount="4" falsecount="0"/>
-        <line num="20" count="3" type="cond" truecount="4" falsecount="0"/>
-        <line num="21" count="2" type="stmt"/>
-        <line num="23" count="3" type="stmt"/>
+        <line num="17" count="16" type="stmt"/>
+        <line num="18" count="16" type="stmt"/>
+        <line num="19" count="16" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="30" count="6" type="cond" truecount="4" falsecount="0"/>
+        <line num="31" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
       </file>
       <file name="paso.ts" path="/home/usuario/DSI/prct05-objects-classes-interfaces-alu0101551371/src/ej3_recetario/paso.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="11" count="81" type="stmt"/>
-        <line num="12" count="81" type="stmt"/>
-        <line num="13" count="81" type="stmt"/>
-        <line num="14" count="81" type="stmt"/>
-        <line num="15" count="81" type="stmt"/>
+        <line num="19" count="77" type="stmt"/>
+        <line num="20" count="77" type="stmt"/>
+        <line num="21" count="77" type="stmt"/>
+        <line num="22" count="77" type="stmt"/>
+        <line num="23" count="77" type="stmt"/>
       </file>
       <file name="recetario.ts" path="/home/usuario/DSI/prct05-objects-classes-interfaces-alu0101551371/src/ej3_recetario/recetario.ts">
         <metrics statements="20" coveredstatements="20" conditionals="22" coveredconditionals="22" methods="6" coveredmethods="6"/>
-        <line num="11" count="39" type="stmt"/>
-        <line num="12" count="39" type="stmt"/>
-        <line num="13" count="39" type="stmt"/>
-        <line num="17" count="16" type="stmt"/>
-        <line num="21" count="28" type="stmt"/>
-        <line num="22" count="28" type="stmt"/>
-        <line num="23" count="28" type="stmt"/>
-        <line num="24" count="57" type="stmt"/>
-        <line num="25" count="57" type="cond" truecount="2" falsecount="0"/>
-        <line num="26" count="9" type="stmt"/>
-        <line num="29" count="28" type="stmt"/>
-        <line num="33" count="9" type="stmt"/>
-        <line num="34" count="9" type="stmt"/>
-        <line num="35" count="18" type="cond" truecount="4" falsecount="0"/>
-        <line num="36" count="15" type="cond" truecount="4" falsecount="0"/>
-        <line num="37" count="14" type="cond" truecount="4" falsecount="0"/>
-        <line num="38" count="11" type="cond" truecount="4" falsecount="0"/>
-        <line num="39" count="10" type="cond" truecount="4" falsecount="0"/>
-        <line num="40" count="7" type="stmt"/>
-        <line num="42" count="9" type="stmt"/>
+        <line num="17" count="37" type="stmt"/>
+        <line num="18" count="37" type="stmt"/>
+        <line num="19" count="37" type="stmt"/>
+        <line num="27" count="16" type="stmt"/>
+        <line num="35" count="28" type="stmt"/>
+        <line num="36" count="28" type="stmt"/>
+        <line num="37" count="28" type="stmt"/>
+        <line num="38" count="57" type="stmt"/>
+        <line num="39" count="57" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="9" type="stmt"/>
+        <line num="43" count="28" type="stmt"/>
+        <line num="52" count="9" type="stmt"/>
+        <line num="53" count="9" type="stmt"/>
+        <line num="54" count="18" type="cond" truecount="4" falsecount="0"/>
+        <line num="55" count="15" type="cond" truecount="4" falsecount="0"/>
+        <line num="56" count="14" type="cond" truecount="4" falsecount="0"/>
+        <line num="57" count="11" type="cond" truecount="4" falsecount="0"/>
+        <line num="58" count="10" type="cond" truecount="4" falsecount="0"/>
+        <line num="59" count="7" type="stmt"/>
+        <line num="61" count="9" type="stmt"/>
       </file>
       <file name="sistema.ts" path="/home/usuario/DSI/prct05-objects-classes-interfaces-alu0101551371/src/ej3_recetario/sistema.ts">
         <metrics statements="15" coveredstatements="15" conditionals="12" coveredconditionals="12" methods="12" coveredmethods="12"/>
-        <line num="8" count="6" type="stmt"/>
-        <line num="12" count="14" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="24" count="4" type="stmt"/>
-        <line num="25" count="4" type="stmt"/>
-        <line num="26" count="8" type="cond" truecount="4" falsecount="0"/>
-        <line num="27" count="5" type="cond" truecount="4" falsecount="0"/>
-        <line num="28" count="4" type="cond" truecount="4" falsecount="0"/>
-        <line num="29" count="2" type="stmt"/>
-        <line num="31" count="4" type="stmt"/>
-        <line num="35" count="2" type="stmt"/>
-        <line num="36" count="4" type="stmt"/>
-        <line num="37" count="12" type="stmt"/>
-        <line num="53" count="1" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="20" count="14" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="45" count="4" type="stmt"/>
+        <line num="46" count="4" type="stmt"/>
+        <line num="47" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="48" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="49" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="52" count="4" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="61" count="4" type="stmt"/>
+        <line num="62" count="12" type="stmt"/>
+        <line num="81" count="1" type="stmt"/>
       </file>
     </package>
   </project>

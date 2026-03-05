@@ -1,6 +1,6 @@
 import { describe, expect, test, beforeEach } from "vitest";
 import { Conecta4 } from "../src/ej2_conecta4/conecta4";
-import { Jugador, J } from "../src/ej2_conecta4/jugador";
+import { Jugador } from "../src/ej2_conecta4/jugador";
 
 describe("Conecta4", () => {
 	let tablero: Conecta4;
@@ -111,20 +111,20 @@ describe("Jugador", () => {
 	});
 
 	test("Jugador 1 puede soltar una ficha", () => {
-		const result = player1.soltarFicha(0);
+		const result = player1.soltarFicha();
 		expect(result).toBe(true);
 		expect(player1.numFichas).toBe(20);
 	});
 
 	test("Jugador 2 puede soltar una ficha", () => {
-		const result = player2.soltarFicha(0);
+		const result = player2.soltarFicha();
 		expect(result).toBe(true);
 		expect(player2.numFichas).toBe(20);
 	});
 
 	test("Jugador no puede soltar ficha si no tiene fichas", () => {
 		player1.numFichas = 0;
-		const result = player1.soltarFicha(0);
+		const result = player1.soltarFicha();
 		expect(result).toBe(false);
 		expect(player1.numFichas).toBe(0);
 	});

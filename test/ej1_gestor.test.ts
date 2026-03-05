@@ -1,5 +1,5 @@
 import { describe, expect, test, beforeEach } from "vitest";
-import { ElementoInformacion, ElementoBibliografico, Revista, Congreso, Libro, TFG, TFM } from "../src/ej1_gestor_referencias_bibliográficas/elementos";
+import { ElementoInformacion, Revista, Congreso, Libro, TFG, TFM } from "../src/ej1_gestor_referencias_bibliográficas/elementos";
 import { Inventario } from "../src/ej1_gestor_referencias_bibliográficas/inventario"; 
 
 describe("Gestor de referencias bibliográficas - Elementos Bibliográficos", () => {

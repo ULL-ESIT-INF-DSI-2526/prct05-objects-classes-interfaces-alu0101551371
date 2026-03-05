@@ -6,6 +6,9 @@ export class Conecta4 {
   public player2: Jugador;
 	public turno: Jugador;
 
+  /**
+   * Inicializa un nuevo juego de Conecta4 con el tablero, jugadores y turno
+   */
   constructor() {
     this.crearTablero();
     this.player1 = new Jugador(1, '🔴', 21);
@@ -13,6 +16,9 @@ export class Conecta4 {
     this.turno = this.player1;
   }
 
+  /**
+   * Crea e inicializa el tablero de juego de 6 filas x 7 columnas
+   */
 	public crearTablero(): void {
     this.tablero = new Array(6);
     for (let i: number = 0; i < 6; i++) {
@@ -20,10 +26,18 @@ export class Conecta4 {
     }
   }
 
+  /**
+   * Imprime el estado actual del tablero en la consola
+   */
   public printTablero(): void {
     this.tablero.map((row: string[]) => console.log(row.join(' ')));
   }
 
+  /**
+   * Suelta una ficha del jugador actual en la columna especificada
+   * @param columna Número de columna (0-6) donde se desea soltar la ficha
+   * @returns true si la ficha fue colocada exitosamente, false si la columna es inválida o está llena
+   */
   public soltarFicha(columna: number): boolean {
     if(columna < 0 || columna > 6) {
       console.log('Columna no válida');
@@ -43,6 +57,10 @@ export class Conecta4 {
     return false;
   }
 
+  /**
+   * Verifica si hay un ganador en el tablero actual
+   * @returns true si hay cuatro fichas consecutivas en fila, columna o diagonal, false en caso contrario
+   */
 	public verificarGanador(): boolean {
     // Verificar filas
     for (let i: number = 0; i < 6; i++) {

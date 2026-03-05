@@ -86,7 +86,6 @@ describe("Recetario", () => {
 
 describe("Chef", () => {
 	let chef1: Chef;
-	let chef2: Chef;
 
 	beforeEach(() => {
 		chef1 = new Chef("Chef 1", 1000, [
@@ -97,13 +96,6 @@ describe("Chef", () => {
 			new Recetas("Receta 2", 2021, [
 				new Paso("Paso A", 15, ["etiquetaA"], 4),
 				new Paso("Paso B", 25, ["etiquetaB"], 2),
-			]),
-		]);
-
-		chef2 = new Chef("Chef 2", 500, [
-			new Recetas("Receta X", 2020, [
-				new Paso("Paso X", 5, ["etiquetaX"], 6),
-				new Paso("Paso Y", 30, ["etiquetaY"], 1),
 			]),
 		]);
 	});
