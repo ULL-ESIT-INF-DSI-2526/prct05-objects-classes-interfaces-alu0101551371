@@ -1,0 +1,159 @@
+<!DOCTYPE html><html class="default" lang="en" data-base="./"><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>prct05-objects-classes-interfaces-alu0101551371</title><meta name="description" content="Documentation for prct05-objects-classes-interfaces-alu0101551371"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="assets/style.css"/><link rel="stylesheet" href="assets/highlight.css"/><script defer src="assets/main.js"></script><script async src="assets/icons.js" id="tsd-icons-script"></script><script async src="assets/search.js" id="tsd-search-script"></script><script async src="assets/navigation.js" id="tsd-nav-script"></script><script async src="assets/hierarchy.js" id="tsd-hierarchy-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os";document.body.style.display="none";setTimeout(() => window.app?app.showPage():document.body.style.removeProperty("display"),500)</script><header class="tsd-page-toolbar"><div class="tsd-toolbar-contents container"><a href="index.html" class="title">prct05-objects-classes-interfaces-alu0101551371</a><div id="tsd-toolbar-links"></div><button id="tsd-search-trigger" class="tsd-widget" aria-label="Search"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><use href="assets/icons.svg#icon-search"></use></svg></button><dialog id="tsd-search" aria-label="Search"><input role="combobox" id="tsd-search-input" aria-controls="tsd-search-results" aria-autocomplete="list" aria-expanded="true" autocapitalize="off" autocomplete="off" placeholder="Search the docs" maxLength="100"/><ul role="listbox" id="tsd-search-results"></ul><div id="tsd-search-status" aria-live="polite" aria-atomic="true"><div>Preparing search index...</div></div></dialog><a href="#" class="tsd-widget menu" id="tsd-toolbar-menu-trigger" data-toggle="menu" aria-label="Menu"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><use href="assets/icons.svg#icon-menu"></use></svg></a></div></header><div class="container container-main"><div class="col-content"><div class="tsd-page-title"><h1>prct05-objects-classes-interfaces-alu0101551371</h1></div><div class="tsd-panel tsd-typography"><h1 id="práctica-5-objetos-clases-e-interfaces-en-typescript" class="tsd-anchor-link">Práctica 5 - Objetos, Clases e Interfaces en TypeScript<a href="#práctica-5-objetos-clases-e-interfaces-en-typescript" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h1>
+<p><a href="https://classroom.github.com/a/-ciDUVo2"><img src="https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg" alt="Review Assignment Due Date"></a>
+<a href="https://classroom.github.com/open-in-codespaces?assignment_repo_id=22917910"><img src="https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg" alt="Open in Codespaces"></a></p>
+<h2 id="descripción-general" class="tsd-anchor-link">Descripción general<a href="#descripción-general" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2>
+<p>En esta práctica tendremos que resolver una serie de ejercicios de programación que nos permitirán conocer más en profundidad los objetos, clases e interfaces de TypeScript.</p>
+<p>Todas las soluciones a los ejercicios deberán estar alojadas en el repositorio generado tras la aceptación de la asignación de GitHub Classroom. En ese sentido, utilice en dicho repositorio una estructura de proyecto similar a la que hemos visto en clase.</p>
+<hr>
+<h2 id="estructura-del-proyecto" class="tsd-anchor-link">Estructura del proyecto<a href="#estructura-del-proyecto" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2>
+<pre><code><span class="hl-0">prct05</span><span class="hl-1">-</span><span class="hl-0">objects</span><span class="hl-1">-</span><span class="hl-0">classes</span><span class="hl-1">-</span><span class="hl-0">interfaces</span><span class="hl-1">-</span><span class="hl-0">alu0101551371</span><span class="hl-1">/</span><br/><span class="hl-1">├── </span><span class="hl-0">src</span><span class="hl-1">/                                        # </span><span class="hl-0">Código</span><span class="hl-1"> </span><span class="hl-0">fuente</span><br/><span class="hl-1">│   ├── </span><span class="hl-0">ej1_gestor_referencias_bibliográficas</span><span class="hl-1">/</span><br/><span class="hl-1">│   │   ├── </span><span class="hl-0">elementos</span><span class="hl-1">.</span><span class="hl-0">ts</span><br/><span class="hl-1">│   │   └── </span><span class="hl-0">inventario</span><span class="hl-1">.</span><span class="hl-0">ts</span><br/><span class="hl-1">│   ├── </span><span class="hl-0">ej2_conecta4</span><span class="hl-1">/</span><br/><span class="hl-1">│   │   ├── </span><span class="hl-0">conecta4</span><span class="hl-1">.</span><span class="hl-0">ts</span><br/><span class="hl-1">│   │   └── </span><span class="hl-0">jugador</span><span class="hl-1">.</span><span class="hl-0">ts</span><br/><span class="hl-1">│   └── </span><span class="hl-0">ej3_recetario</span><span class="hl-1">/</span><br/><span class="hl-1">│       ├── </span><span class="hl-0">chef</span><span class="hl-1">.</span><span class="hl-0">ts</span><br/><span class="hl-1">│       ├── </span><span class="hl-0">paso</span><span class="hl-1">.</span><span class="hl-0">ts</span><br/><span class="hl-1">│       ├── </span><span class="hl-0">recetario</span><span class="hl-1">.</span><span class="hl-0">ts</span><br/><span class="hl-1">│       └── </span><span class="hl-0">sistema</span><span class="hl-1">.</span><span class="hl-0">ts</span><br/><span class="hl-1">├── </span><span class="hl-0">test</span><span class="hl-1">/                                       # </span><span class="hl-0">Pruebas</span><span class="hl-1"> </span><span class="hl-0">unitarias</span><br/><span class="hl-1">│   ├── </span><span class="hl-0">ej1_gestor</span><span class="hl-1">.</span><span class="hl-0">test</span><span class="hl-1">.</span><span class="hl-0">ts</span><br/><span class="hl-1">│   ├── </span><span class="hl-0">ej2_conecta4</span><span class="hl-1">.</span><span class="hl-0">test</span><span class="hl-1">.</span><span class="hl-0">ts</span><br/><span class="hl-1">│   └── </span><span class="hl-0">ej3_recetario</span><span class="hl-1">.</span><span class="hl-0">test</span><span class="hl-1">.</span><span class="hl-0">ts</span><br/><span class="hl-1">├── </span><span class="hl-0">docs</span><span class="hl-1">/                                       # </span><span class="hl-0">Documentación</span><span class="hl-1"> </span><span class="hl-0">generada</span><br/><span class="hl-1">├── </span><span class="hl-0">dist</span><span class="hl-1">/                                       # </span><span class="hl-0">Compilado</span><span class="hl-1"> </span><span class="hl-0">JavaScript</span><br/><span class="hl-1">├── </span><span class="hl-0">coverage</span><span class="hl-1">/                                   # </span><span class="hl-0">Cobertura</span><span class="hl-1"> </span><span class="hl-0">de</span><span class="hl-1"> </span><span class="hl-0">pruebas</span><br/><span class="hl-1">├── </span><span class="hl-0">package</span><span class="hl-1">.</span><span class="hl-0">json</span><span class="hl-1">                                # </span><span class="hl-0">Dependencias</span><span class="hl-1"> </span><span class="hl-0">y</span><span class="hl-1"> </span><span class="hl-0">scripts</span><br/><span class="hl-1">├── </span><span class="hl-0">tsconfig</span><span class="hl-1">.</span><span class="hl-0">json</span><span class="hl-1">                               # </span><span class="hl-0">Configuración</span><span class="hl-1"> </span><span class="hl-0">TypeScript</span><br/><span class="hl-1">├── </span><span class="hl-0">typedoc</span><span class="hl-1">.</span><span class="hl-0">json</span><span class="hl-1">                                # </span><span class="hl-0">Configuración</span><span class="hl-1"> </span><span class="hl-0">TypeDoc</span><br/><span class="hl-1">├── </span><span class="hl-0">vitest</span><span class="hl-1">.</span><span class="hl-0">config</span><span class="hl-1">.</span><span class="hl-0">js</span><span class="hl-1">                            # </span><span class="hl-0">Configuración</span><span class="hl-1"> </span><span class="hl-0">Vitest</span><br/><span class="hl-1">├── </span><span class="hl-0">vitest</span><span class="hl-1">.</span><span class="hl-0">config</span><span class="hl-1">.</span><span class="hl-0">ts</span><span class="hl-1">                            # </span><span class="hl-0">Configuración</span><span class="hl-1"> </span><span class="hl-2">Vitest</span><span class="hl-1"> (</span><span class="hl-0">TypeScript</span><span class="hl-1">)</span><br/><span class="hl-1">├── </span><span class="hl-0">eslint</span><span class="hl-1">.</span><span class="hl-0">config</span><span class="hl-1">.</span><span class="hl-0">mjs</span><span class="hl-1">                           # </span><span class="hl-0">Configuración</span><span class="hl-1"> </span><span class="hl-0">ESLint</span><br/><span class="hl-1">├── .</span><span class="hl-0">prettierrc</span><span class="hl-1">                                 # </span><span class="hl-0">Configuración</span><span class="hl-1"> </span><span class="hl-0">Prettier</span><br/><span class="hl-1">└── </span><span class="hl-3">README</span><span class="hl-1">.</span><span class="hl-0">md</span><span class="hl-1">                                   # </span><span class="hl-0">Este</span><span class="hl-1"> </span><span class="hl-0">archivo</span>
+</code><button>Copy</button></pre>
+
+<hr>
+<h2 id="tareas-previas" class="tsd-anchor-link">Tareas previas<a href="#tareas-previas" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2>
+<ul>
+<li>Acepte la <a href="">asignación de GitHub Classroom</a> asociada a esta práctica.</li>
+<li>Comience a familiarizarse con los <a href="">principios SOLID</a> de Programación Orientada a Objetos. En próximas prácticas, el desarrollo de su código fuente deberá ajustarse a estos principios. También tiene disponibles los apuntes de la asignatura para aprender más sobre dichos principios.</li>
+<li>Lea la documentación sobre <a href="">TSDoc</a> y <a href="">TypeDoc</a> y visualice los vídeos de configuración y uso disponibles en el aula virtual. Estas herramientas nos permitirán generar documentación automática a partir de comentarios en nuestro código.</li>
+<li>Familiarícese con las herramientas para integración continua: <a href="">Vitest</a>, <a href="">Coveralls</a> y flujos de trabajo en <a href="">GitHub Actions</a>. Visualice los vídeos elaborados por el profesorado en el aula virtual. Durante esta práctica el uso de estas herramientas es opcional, pero se recomienda su configuración para próximas prácticas donde será obligatorio.</li>
+</ul>
+<hr>
+<h2 id="ejercicios" class="tsd-anchor-link">Ejercicios<a href="#ejercicios" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2>
+<p>Lleve a cabo todos y cada uno de los ejercicios propuestos a continuación. Dado que vamos a trabajar con clases e interfaces y que, probablemente, cada ejercicio implique el desarrollo de diferentes entidades, el código fuente de cada ejercicio deberá estar alojado en un directorio independiente con nombre <code>ejercicio-n/</code> dentro del directorio <code>src/</code>. Dentro del directorio correspondiente a cada ejercicio, intente incluir cada entidad desarrollada en un fichero independiente.</p>
+<p>Incluya la documentación de sus clases mediante el uso de <strong>TSDoc</strong> y genere dicha documentación con <strong>TypeDoc</strong>. Luego, adopte una metodología de <strong>desarrollo dirigido por pruebas (TDD)</strong>. Tenga en cuenta que seguir la metodología TDD implica confirmar el correcto funcionamiento del código desarrollado, así como los casos en los que dicho código debería informar de un error cuando la entrada no sea la correcta (errors should never pass silently). En consecuencia, desarrolle pruebas unitarias que comprueben el correcto funcionamiento del código y, además, incluya otras pruebas unitarias que verifiquen que el software es robusto ante entradas no válidas o inesperadas.</p>
+<h3 id="ejercicio-1-gestor-de-referencias-bibliográficas" class="tsd-anchor-link">Ejercicio 1 - Gestor de referencias bibliográficas<a href="#ejercicio-1-gestor-de-referencias-bibliográficas" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<p>Los gestores de referencias bibliográficas son herramientas que permiten almacenar, consultar y exportar información en diferentes formatos sobre elementos bibliográficos: recursos electrónicos, trabajos de fin de titulación (grado o máster), tesis, patentes, artículos de revistas, contribuciones a congresos, libros o capítulos de libros, entre otros.</p>
+<p>Deberá diseñar e implementar el conjunto de clases e interfaces necesarias para representar un gestor de referencias bibliográficas que permita gestionar información sobre diferentes tipos de elementos bibliográficos.</p>
+<p><strong>Información mínima de cada elemento bibliográfico:</strong></p>
+<ul>
+<li>Título</li>
+<li>Autor o autores</li>
+<li>Palabras clave</li>
+<li>Resumen</li>
+<li>Fecha de publicación</li>
+<li>Páginas</li>
+<li>Editorial</li>
+</ul>
+<p>Tenga en cuenta que cada elemento bibliográfico puede contener información adicional dependiendo de su tipología. Por ejemplo, un artículo de revista deberá incluir número de revista y volumen.</p>
+<p><strong>Funcionalidad requerida del gestor:</strong></p>
+<ul>
+<li>Almacenar la información de múltiples elementos bibliográficos</li>
+<li>Mostrar por la consola la información almacenada en formato tabla (<code>console.table</code>)</li>
+<li>Permitir búsquedas de elementos bibliográficos por palabras clave</li>
+<li>Filtrar resultados por título, autores, fecha de publicación y editorial</li>
+<li>Mostrar resultados de búsqueda en formato tabla</li>
+<li>Exportar resultados de búsqueda en formato IEEE</li>
+<li>Con independencia del tipo de elemento bibliográfico, siempre deberá poder obtener una referencia en formato IEEE</li>
+</ul>
+<p><strong>Tipos de elementos bibliográficos a considerar:</strong></p>
+<ul>
+<li>Artículos de revista</li>
+<li>Contribuciones a congreso</li>
+<li>Capítulos de libro</li>
+<li>Trabajos de Fin de Grado (TFG)</li>
+<li>Trabajos de Fin de Máster (TFM)</li>
+</ul>
+<h3 id="ejercicio-2-conecta-4" class="tsd-anchor-link">Ejercicio 2 - Conecta 4<a href="#ejercicio-2-conecta-4" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<p>Todos (o casi todos) hemos jugado alguna vez al Conecta 4. En una rejilla de 6 filas y 7 columnas, dos jugadores se turnan para ir colocando un conjunto de fichas dejándolas caer por alguna de las siete columnas de la rejilla. Cada jugador dispone de un total de 21 fichas de un color diferente.</p>
+<p>En cada turno, una ficha tomará la primera posición libre de la columna seleccionada por el jugador que corresponda. Si la columna está completa, esto es, ya cuenta con seis fichas, dicha columna no podrá ser seleccionada.</p>
+<p>El objetivo del jugador es colocar cuatro fichas consecutivas ya sea en una misma fila, una misma columna o en diagonal.</p>
+<p>Cree la jerarquía de clases e interfaces necesarias para implementar el juego Conecta 4.</p>
+<p><strong>Funcionalidad requerida:</strong></p>
+<ul>
+<li>El juego comienza con el Jugador 1 colocando la primera ficha</li>
+<li>Los jugadores deben ir alternándose en turnos sucesivos con el Jugador 2</li>
+<li>Se deberá mostrar por consola a qué jugador le toca colocar una ficha</li>
+<li>Si un jugador intenta colocar una ficha en una columna completa, se mostrará un mensaje informando de que la columna está completa y se le permitirá seleccionar otra columna</li>
+<li>Una vez que el jugador correspondiente haya colocado una ficha, debe mostrarse el estado del tablero</li>
+<li>Cuando alguno de los dos jugadores gane, se debe informar de lo anterior en la consola y terminar el juego</li>
+</ul>
+<h3 id="ejercicio-3-recetario" class="tsd-anchor-link">Ejercicio 3 - Recetario<a href="#ejercicio-3-recetario" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<p>Diseñe el conjunto de clases e interfaces necesarias para almacenar un recetario.</p>
+<p><strong>Información de un chef:</strong></p>
+<ul>
+<li>Nombre</li>
+<li>Seguidores</li>
+<li>Recetario</li>
+</ul>
+<p><strong>Información de una receta:</strong></p>
+<ul>
+<li>Nombre</li>
+<li>Año de publicación</li>
+<li>Pasos</li>
+</ul>
+<p><strong>Información de cada paso de una receta:</strong></p>
+<ul>
+<li>Nombre/Descripción corta</li>
+<li>Duración estimada en segundos</li>
+<li>Etiquetas de clasificación</li>
+<li>Paso opcional (booleano)</li>
+<li>Número de veces completado</li>
+</ul>
+<p><strong>Funcionalidad requerida del sistema:</strong></p>
+<ul>
+<li>Almacenar información de diferentes chefs, sus recetas y los pasos para elaborar cada una de ellas</li>
+<li>Mostrar por la consola toda la información en formato tabla (<code>console.table</code>)</li>
+<li>Llevar a cabo búsquedas de chefs, recetas y pasos mostrando resultados en formato tabla</li>
+<li>Calcular el número de pasos de una receta</li>
+<li>Calcular el tiempo total de elaboración de una receta, a partir de la duración de todos sus pasos</li>
+<li>Si la receta posee pasos opcionales, proporcionar un rango con el tiempo mínimo y máximo de elaboración</li>
+</ul>
+<hr>
+<h2 id="scripts-disponibles" class="tsd-anchor-link">Scripts disponibles<a href="#scripts-disponibles" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2>
+<table>
+<thead>
+<tr>
+<th>Script</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>npm run dev</code></td>
+<td>Ejecuta el compilador en modo observador</td>
+</tr>
+<tr>
+<td><code>npm run test</code></td>
+<td>Ejecuta las pruebas unitarias con Vitest</td>
+</tr>
+<tr>
+<td><code>npm run doc</code></td>
+<td>Genera documentación con TypeDoc</td>
+</tr>
+<tr>
+<td><code>npm run format</code></td>
+<td>Formatea el código con Prettier</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="pruebas-unitarias" class="tsd-anchor-link">Pruebas unitarias<a href="#pruebas-unitarias" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2>
+<p>Cada ejercicio cuenta con una suite de pruebas unitarias en la carpeta <code>test/</code>. Las pruebas se ejecutan con Vitest.</p>
+<h3 id="ejecutar-pruebas" class="tsd-anchor-link">Ejecutar pruebas<a href="#ejecutar-pruebas" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<pre><code class="bash"><span class="hl-4"># Ejecutar todas las pruebas</span><br/><span class="hl-2">npm</span><span class="hl-1"> </span><span class="hl-5">run</span><span class="hl-1"> </span><span class="hl-5">test</span>
+</code><button type="button">Copy</button></pre>
+
+<hr>
+<h2 id="generación-de-documentación" class="tsd-anchor-link">Generación de documentación<a href="#generación-de-documentación" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2>
+<p>Se utiliza TypeDoc para generar documentación automática a partir de los comentarios JSDoc.</p>
+<pre><code class="bash"><span class="hl-4"># Generar documentación</span><br/><span class="hl-2">npm</span><span class="hl-1"> </span><span class="hl-5">run</span><span class="hl-1"> </span><span class="hl-5">doc</span><br/><br/><span class="hl-4"># La documentación se genera en la carpeta /docs</span>
+</code><button type="button">Copy</button></pre>
+
+<hr>
+<h2 id="verifica-código" class="tsd-anchor-link">Verifica código<a href="#verifica-código" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2>
+<pre><code class="bash"><span class="hl-4"># Ejecutar ESLint</span><br/><span class="hl-2">npx</span><span class="hl-1"> </span><span class="hl-5">eslint</span><span class="hl-1"> </span><span class="hl-5">.</span><br/><br/><span class="hl-4"># Formatear con Prettier</span><br/><span class="hl-2">npm</span><span class="hl-1"> </span><span class="hl-5">run</span><span class="hl-1"> </span><span class="hl-5">format</span>
+</code><button type="button">Copy</button></pre>
+
+<hr>
+<h2 id="enlaces-útiles" class="tsd-anchor-link">Enlaces útiles<a href="#enlaces-útiles" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2>
+<ul>
+<li><a href="https://ull-esit-inf-dsi-2526.github.io/prct05-objects-classes-interfaces/">Práctica 5 - Objetos, clases e interfaces</a></li>
+<li><a href="https://ull-esit-inf-dsi-2526.github.io/typescript-theory/typescript-objects-classes-interfaces.html">Objetos, clases e interfaces</a></li>
+<li><a href="https://vitest.dev/">Guía de Vitest</a></li>
+<li><a href="https://typedoc.org/">TypeDoc - Generador de documentación</a></li>
+<li><a href="https://eslint.org/">ESLint - Linter para JavaScript/TypeScript</a></li>
+<li><a href="https://prettier.io/">Prettier - Code Formatter</a></li>
+</ul>
+<hr>
+<p>Última actualización: 5 de marzo de 2026</p>
+</div></div><div class="col-sidebar"><div class="page-menu"><div class="tsd-navigation settings"><details class="tsd-accordion"><summary class="tsd-accordion-summary"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="assets/icons.svg#icon-chevronDown"></use></svg><h3>Settings</h3></summary><div class="tsd-accordion-details"><div class="tsd-filter-visibility"><span class="settings-label">Member Visibility</span><ul id="tsd-filter-options"><li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-protected" name="protected"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Protected</span></label></li><li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-inherited" name="inherited" checked/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Inherited</span></label></li><li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-external" name="external"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>External</span></label></li></ul></div><div class="tsd-theme-toggle"><label class="settings-label" for="tsd-theme">Theme</label><select id="tsd-theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></div></div></details></div><details open class="tsd-accordion tsd-page-navigation"><summary class="tsd-accordion-summary"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="assets/icons.svg#icon-chevronDown"></use></svg><h3>On This Page</h3></summary><div class="tsd-accordion-details"><a href="#práctica-5-objetos-clases-e-interfaces-en-typescript"><span>Práctica 5 -<wbr/> <wbr/>Objetos, <wbr/>Clases e <wbr/>Interfaces en <wbr/>Type<wbr/>Script</span></a><ul><li><a href="#descripción-general"><span>Descripción general</span></a></li><li><a href="#estructura-del-proyecto"><span>Estructura del proyecto</span></a></li><li><a href="#tareas-previas"><span>Tareas previas</span></a></li><li><a href="#ejercicios"><span>Ejercicios</span></a></li><li><ul><li><a href="#ejercicio-1-gestor-de-referencias-bibliográficas"><span>Ejercicio 1 -<wbr/> <wbr/>Gestor de referencias bibliográficas</span></a></li><li><a href="#ejercicio-2-conecta-4"><span>Ejercicio 2 -<wbr/> <wbr/>Conecta 4</span></a></li><li><a href="#ejercicio-3-recetario"><span>Ejercicio 3 -<wbr/> <wbr/>Recetario</span></a></li></ul></li><li><a href="#scripts-disponibles"><span>Scripts disponibles</span></a></li><li><a href="#pruebas-unitarias"><span>Pruebas unitarias</span></a></li><li><ul><li><a href="#ejecutar-pruebas"><span>Ejecutar pruebas</span></a></li></ul></li><li><a href="#generación-de-documentación"><span>Generación de documentación</span></a></li><li><a href="#verifica-código"><span>Verifica código</span></a></li><li><a href="#enlaces-útiles"><span>Enlaces útiles</span></a></li></ul></div></details></div><div class="site-menu"><nav class="tsd-navigation"><a href="modules.html">prct05-objects-classes-interfaces-alu0101551371</a><ul class="tsd-small-nested-navigation" id="tsd-nav-container"><li>Loading...</li></ul></nav></div></div></div><footer><p class="tsd-generator">Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p></footer><div class="overlay"></div></body></html>
