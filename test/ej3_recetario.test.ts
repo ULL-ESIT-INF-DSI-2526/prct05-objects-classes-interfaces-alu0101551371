@@ -1,4 +1,4 @@
-import { describe, expect, test, beforeEach } from "vitest";
+import { describe, expect, test, beforeEach, vi } from "vitest";
 import { Chef } from "../src/ej3_recetario/chef";
 import { Paso } from "../src/ej3_recetario/paso";
 import { Recetas } from "../src/ej3_recetario/recetario";
@@ -77,6 +77,10 @@ describe("Recetario", () => {
 		expect(receta3.filtradoPasos({pasoOpcional: false})).toEqual([]);
 
 		expect(receta3.filtradoPasos({etiquetasClasificacion: "etiquetaZ"})).toEqual([]);
+
+		expect(receta3.filtradoPasos({numVecesCompletado: 6})).toEqual([
+			{nombre: "Paso X", duracion: 5, etiquetasClasificacion: ["etiquetaX"], numVecesCompletado: 6, pasoOpcional: undefined}
+		]);
 	});
 });
 
@@ -269,7 +273,34 @@ describe("Sistema", () => {
 			}
 		]);
 
-
 		expect(sistema.filtradoChefs({nombre: "Chef 3"})).toEqual([]);
+
+		let recetaZ = new Recetas("Receta Z", 2022, [
+			new Paso("Paso Z1", 20, ["etiquetaZ1"], 0),
+			new Paso("Paso Z2", 40, ["etiquetaZ2"], 0, true),
+		]);
+		expect(sistema.filtradoChefs({recetario: [recetaZ]})).toEqual([]);
+	});
+
+	test("tablaChefs", () => {
+		const tabla = sistema.tablaChefs();
+		expect(tabla.length).toBe(6);
+		expect(tabla[0]).toEqual({
+			chef: "Chef 1",
+			receta: "Receta 1",
+			anyo: 2020,
+			pasos_totales: 2,
+			tiempo_min: 30,
+			tiempo_max: 50,
+			paso: "Paso 1",
+			duracion: 10,
+			etiquetas: "etiqueta1"
+		});
+	});
+
+	test("showChefs", () => {
+		console.table = vi.fn();
+		sistema.showChefs();
+		expect(console.table).toHaveBeenCalled();
 	});
 });

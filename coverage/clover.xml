@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1772650530685" clover="3.2.0">
-  <project timestamp="1772650530685" name="All files">
-    <metrics statements="114" coveredstatements="114" conditionals="56" coveredconditionals="56" methods="24" coveredmethods="24" elements="194" coveredelements="194" complexity="0" loc="114" ncloc="114" packages="2" files="4" classes="4"/>
+<coverage generated="1772669423409" clover="3.2.0">
+  <project timestamp="1772669423409" name="All files">
+    <metrics statements="163" coveredstatements="163" conditionals="98" coveredconditionals="98" methods="46" coveredmethods="46" elements="307" coveredelements="307" complexity="0" loc="163" ncloc="163" packages="3" files="8" classes="8"/>
     <package name="ej1_gestor_referencias_bibliográficas">
       <metrics statements="71" coveredstatements="71" conditionals="21" coveredconditionals="21" methods="16" coveredmethods="16"/>
       <file name="elementos.ts" path="/home/usuario/DSI/prct05-objects-classes-interfaces-alu0101551371/src/ej1_gestor_referencias_bibliográficas/elementos.ts">
@@ -132,6 +132,70 @@
         <line num="16" count="2" type="stmt"/>
         <line num="17" count="2" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="ej3_recetario">
+      <metrics statements="49" coveredstatements="49" conditionals="42" coveredconditionals="42" methods="22" coveredmethods="22"/>
+      <file name="chef.ts" path="/home/usuario/DSI/prct05-objects-classes-interfaces-alu0101551371/src/ej3_recetario/chef.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
+        <line num="11" count="18" type="stmt"/>
+        <line num="12" count="18" type="stmt"/>
+        <line num="13" count="18" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="6" type="cond" truecount="4" falsecount="0"/>
+        <line num="20" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+      </file>
+      <file name="paso.ts" path="/home/usuario/DSI/prct05-objects-classes-interfaces-alu0101551371/src/ej3_recetario/paso.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="11" count="81" type="stmt"/>
+        <line num="12" count="81" type="stmt"/>
+        <line num="13" count="81" type="stmt"/>
+        <line num="14" count="81" type="stmt"/>
+        <line num="15" count="81" type="stmt"/>
+      </file>
+      <file name="recetario.ts" path="/home/usuario/DSI/prct05-objects-classes-interfaces-alu0101551371/src/ej3_recetario/recetario.ts">
+        <metrics statements="20" coveredstatements="20" conditionals="22" coveredconditionals="22" methods="6" coveredmethods="6"/>
+        <line num="11" count="39" type="stmt"/>
+        <line num="12" count="39" type="stmt"/>
+        <line num="13" count="39" type="stmt"/>
+        <line num="17" count="16" type="stmt"/>
+        <line num="21" count="28" type="stmt"/>
+        <line num="22" count="28" type="stmt"/>
+        <line num="23" count="28" type="stmt"/>
+        <line num="24" count="57" type="stmt"/>
+        <line num="25" count="57" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="9" type="stmt"/>
+        <line num="29" count="28" type="stmt"/>
+        <line num="33" count="9" type="stmt"/>
+        <line num="34" count="9" type="stmt"/>
+        <line num="35" count="18" type="cond" truecount="4" falsecount="0"/>
+        <line num="36" count="15" type="cond" truecount="4" falsecount="0"/>
+        <line num="37" count="14" type="cond" truecount="4" falsecount="0"/>
+        <line num="38" count="11" type="cond" truecount="4" falsecount="0"/>
+        <line num="39" count="10" type="cond" truecount="4" falsecount="0"/>
+        <line num="40" count="7" type="stmt"/>
+        <line num="42" count="9" type="stmt"/>
+      </file>
+      <file name="sistema.ts" path="/home/usuario/DSI/prct05-objects-classes-interfaces-alu0101551371/src/ej3_recetario/sistema.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="12" coveredconditionals="12" methods="12" coveredmethods="12"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="12" count="14" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="26" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="27" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="28" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="4" type="stmt"/>
+        <line num="37" count="12" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
       </file>
     </package>
   </project>
