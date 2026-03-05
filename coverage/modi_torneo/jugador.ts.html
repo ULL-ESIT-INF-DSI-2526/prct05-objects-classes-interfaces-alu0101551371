@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for ej3_recetario/paso.ts</title>
+    <title>Code coverage report for modi_torneo/jugador.ts</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../prettify.css" />
     <link rel="stylesheet" href="../base.css" />
@@ -19,13 +19,13 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../index.html">All files</a> / <a href="index.html">ej3_recetario</a> paso.ts</h1>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">modi_torneo</a> jugador.ts</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>5/5</span>
+                <span class='fraction'>8/8</span>
             </div>
         
             
@@ -39,14 +39,14 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/1</span>
+                <span class='fraction'>2/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>5/5</span>
+                <span class='fraction'>8/8</span>
             </div>
         
             
@@ -88,7 +88,23 @@
 <a name='L23'></a><a href='#L23'>23</a>
 <a name='L24'></a><a href='#L24'>24</a>
 <a name='L25'></a><a href='#L25'>25</a>
-<a name='L26'></a><a href='#L26'>26</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a>
+<a name='L30'></a><a href='#L30'>30</a>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -106,39 +122,71 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">77x</span>
-<span class="cline-any cline-yes">77x</span>
-<span class="cline-any cline-yes">77x</span>
-<span class="cline-any cline-yes">77x</span>
-<span class="cline-any cline-yes">77x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">export interface elementosPaso {
-  nombre: string;
-  duracion: number;
-  etiquetasClasificacion: string[];
-  numVecesCompletado: number;
-  pasoOpcional?: boolean;
-}
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">35x</span>
+<span class="cline-any cline-yes">35x</span>
+<span class="cline-any cline-yes">35x</span>
+<span class="cline-any cline-yes">35x</span>
+<span class="cline-any cline-yes">35x</span>
+<span class="cline-any cline-yes">35x</span>
+<span class="cline-any cline-yes">35x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { Participante } from "./participante";
 &nbsp;
-export class Paso implements elementosPaso {
-  /**
-   * Crear una nueva instancia de un Paso de una receta
-   * @param nombre Nombre descriptivo del paso
-   * @param duracion Duración en minutos del paso
-   * @param etiquetasClasificacion Lista de etiquetas que clasifican el tipo de paso
-   * @param numVecesCompletado Número de veces que el paso ha sido completado
-   * @param pasoOpcional Indica si el paso es opcional en la receta
-   */
-  constructor(
-    public nombre: string,
-    public duracion: number,
-    public etiquetasClasificacion: string[],
-    public numVecesCompletado: number,
-    public pasoOpcional?: boolean,
-  ) {}
-}
-&nbsp;</pre></td></tr></table></pre>
+/**
+ * 2. Clases Jugador y Equipo
+ * Un jugador individual y un equipo también poseen 
+ * características propias que los diferencian:
+ * 
+ * Un jugador cuenta con propiedades adicionales como 
+ * su nombre de usuario o gamertag, su rango competitivo 
+ * (por ejemplo: bronce, plata, oro, platino, diamante) 
+ * y el número total de partidas jugadas a lo largo de 
+ * su carrera.
+ * 
+ * Un equipo cuenta con propiedades adicionales como el 
+ * nombre de la organización sponsor, una lista con los 
+ * gamertags de sus integrantes (con un mínimo y un máximo 
+ * de miembros configurable).
+ * 
+ * Defina ambas clases heredando de Participante, incorporando 
+ * sus propiedades diferenciadoras e implementando la 
+ * propiedad perfil(): string.
+ */
+export class Jugador extends Participante {
+	constructor(
+		identificador: number, 
+		nombre: string, 
+		region: string, 
+		fechaInscripcion: Date, 
+		puntuacion: number,
+		private gamertag: string,
+		private rangoCompetitivo: string,
+		private partidasJugadas: number) {
+			super(identificador, nombre, region, fechaInscripcion, puntuacion);
+			this.gamertag = gamertag;
+			this.rangoCompetitivo = rangoCompetitivo;
+			this.partidasJugadas = partidasJugadas;
+	}
+&nbsp;
+	perfil(): string {
+		return `Jugador: ${this.nombre}, Gamertag: ${this.gamertag}, Rango: ${this.rangoCompetitivo}, Partidas Jugadas: ${this.partidasJugadas}`;
+	}
+}</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->
